@@ -5,13 +5,13 @@ import { getFirestore } from 'firebase/firestore';
 import { getStorage } from 'firebase/storage';
 
 const firebaseConfig = {
-  // Configuración de Firebase - el usuario necesitará reemplazar estos valores
-  apiKey: "your-api-key",
-  authDomain: "your-project.firebaseapp.com",
-  projectId: "your-project-id",
-  storageBucket: "your-project.appspot.com",
+  // REEMPLAZA ESTOS VALORES CON TU CONFIGURACIÓN DE FIREBASE
+  apiKey: "TU_API_KEY_AQUI",
+  authDomain: "tu-proyecto.firebaseapp.com",
+  projectId: "tu-proyecto-id",
+  storageBucket: "tu-proyecto.appspot.com",
   messagingSenderId: "123456789",
-  appId: "your-app-id"
+  appId: "tu-app-id"
 };
 
 const app = initializeApp(firebaseConfig);
